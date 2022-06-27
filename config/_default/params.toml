@@ -1,0 +1,95 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Egnitely Docs"
+titleSeparator = "-"
+titleAddition = "Build Egnitely Functions to automate business workflows"
+description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["doks.png"]
+ogLocale = "en_US"
+domainTLD = "docs.egnitely.com"
+titleHome = "Egnitely Docs"
+
+## Twitter Cards
+twitterSite = "@egnitely"
+twitterCreator = "@ashutoshhq"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "Egnitely"
+schemaAuthor = "Ashutosh Dubey"
+schemaAuthorTwitter = "https://twitter.com/ashutoshhq"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/idkashutosh/"
+schemaAuthorGitHub = "https://github.com/idkashutosh"
+schemaLocale = "en-US"
+schemaLogo = "logo-doks.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "doks.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/egnitely"
+schemaLinkedIn = "https://www.linkedin.com/in/egnitely/"
+schemaGitHub = "https://github.com/egnitely"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Footer
+footer = "All rights reserved | <a class=\"text-muted\" href=\"https://egnitely.com/\">Egnitely</a>"
+
+# Feed
+copyRight = "Copyright (c) 2021-2022 Egnitely"
+
+# Alert
+alert = false
+alertDismissable = true
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
+alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/egnitely/egnitely-docs"
+docsRepoBranch = "main"
+docsRepoSubPath = ""
+editPage = false
+lastMod = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
