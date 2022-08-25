@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Egnitely Docs"
+title = "Egnitely Developers"
 titleSeparator = "-"
-titleAddition = "Build Egnitely Functions to automate business workflows"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Develop, Collaborate and Deploy functions with Egnitely"
+description = "Egnitely helps engineering teams to develop and deploy scalable backend applications faster and cheaper. Our function marketplace helps cut development cost and empowers your team to ship faster."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -12,8 +12,8 @@ description = "Doks is a Hugo theme for building secure, fast, and SEO-ready doc
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "docs.egnitely.com"
-titleHome = "Egnitely Docs"
+domainTLD = "developer.egnitely.com"
+titleHome = "Egnitely Developers"
 
 ## Twitter Cards
 twitterSite = "@egnitely"
@@ -55,6 +55,7 @@ smallLimit = "300"
 
 # Footer
 footer = "All rights reserved | <a class=\"text-muted\" href=\"https://egnitely.com/\">Egnitely</a>"
+footerRight = "Made with 💓 in India"
 
 # Feed
 copyRight = "Copyright (c) 2021-2022 Egnitely"
@@ -92,4 +93,4 @@ lastMod = false
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = false
+    collapsibleSidebar = true

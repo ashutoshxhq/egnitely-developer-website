@@ -1,63 +1,74 @@
 [[docs]]
-  name = "Getting Started"
+  name = "Overview"
   weight = 10
-  identifier = "getting-started"
-  url = "/docs/getting-started/"
+  identifier = "overview"
+  url = "/docs/overview/"
+
+[[docs]]
+  name = "Develop"
+  weight = 20
+  identifier = "overview"
+  url = "/docs/develop/"
+
+[[docs]]
+  name = "Function"
+  weight = 30
+  identifier = "function"
+  url = "/docs/function/"
+
+[[docs]]
+  name = "Deploy"
+  weight = 40
+  identifier = "deploy"
+  url = "/docs/deploy/"
+
+[[docs]]
+  name = "Guides"
+  weight = 60
+  identifier = "guides"
+  url = "/docs/guides/"
+
+[[docs]]
+  name = "Egnitely CLI"
+  weight = 70
+  identifier = "cli"
+  url = "/docs/cli/"
+
+[[docs]]
+  name = "Desktop App"
+  weight = 70
+  identifier = "desktop"
+  url = "/docs/desktop/"
 
 [[docs]]
   name = "Help"
-  weight = 60
+  weight = 80
   identifier = "help"
   url = "/docs/help/"
 
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
-
-[[guide]]
-  name = "Lorem"
+[[main]]
+  name = "Documentation"
+  url = "/docs/overview/introduction/"
   weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
-
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Docs"
-  url = "/docs/getting-started/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
-  weight = 10
-
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
-
-[[main]]
-  name = "Get Started"
+  name = "Tutorials"
   weight = 30
-  identifier = "get-started"
-  url = "/docs/getting-started/introduction/"
+  identifier = "tutorials"
 
 [[main]]
-  name = "Quick Start"
+  name = "Egnitely CLI"
   weight = 40
-  identifier = "quick-start"
-  url = "/docs/getting-started/quick-start/"
-  parent = "get-started"
+  identifier = "cli"
+  url = "/docs/cli/"
+  parent = "tutorials"
 
 [[main]]
-  name = "Your first function"
-  weight = 50
-  identifier = "first-function"
-  url = "/docs/getting-started/first-function/"
-  parent = "get-started"
+  name = "Egnitely Desktop App"
+  weight = 60
+  identifier = "desktop"
+  url = "/docs/desktop/"
+  parent = "tutorials"
 
 [[social]]
   name = "GitHub"
