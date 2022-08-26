@@ -16,12 +16,7 @@
     top: 0;
 }
 .doks-subnavbar {
-    position: fixed !important;  
-    background-color: unset  !important;
-    z-index: 10000  !important;
-    border: none  !important;
-    margin-top: 4px;
-    width: 100%;
+    margin-top: 64px;
 }
 
 .doks-subnavbar> input {
@@ -35,9 +30,4 @@
 .hero-heading{
     font-size: 140px !important;
     margin-bottom: 80px;
-}
-
-.doks-search{
-    margin-right: 140px !important;
-    margin-left: auto;
 }
