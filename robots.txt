@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.egnitely.com/sitemap.xml
+Sitemap: https://developer.egnitely.com/sitemap.xml
