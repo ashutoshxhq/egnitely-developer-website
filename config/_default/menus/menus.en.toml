@@ -1,6 +1,6 @@
 [[docs]]
   name = "Overview"
-  weight = 10
+  weight = 40
   identifier = "overview"
   url = "/docs/overview/"
 
